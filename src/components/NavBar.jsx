@@ -61,18 +61,7 @@ export default function NavBar() {
                   className="nav-link"
                   onClick={closeExpanded}
                 >
-                  About Me
-                </Link>
-              </Nav.Item>
-              <Nav.Item>
-                <Link
-                  to={"Skills"}
-                  spy={true}
-                  activeClass="active"
-                  className="nav-link"
-                  onClick={closeExpanded}
-                >
-                  Skills
+                  About
                 </Link>
               </Nav.Item>
               <Nav.Item>
@@ -83,7 +72,7 @@ export default function NavBar() {
                   className="nav-link"
                   onClick={closeExpanded}
                 >
-                  Projects
+                  Sprint 1
                 </Link>
               </Nav.Item>
               <Nav.Item>
@@ -94,7 +83,18 @@ export default function NavBar() {
                   className="nav-link"
                   onClick={closeExpanded}
                 >
-                  Contact
+                  Sprint 2
+                </Link>
+              </Nav.Item>
+              <Nav.Item>
+                <Link
+                  to={"Contact"}
+                  spy={true}
+                  activeClass="active"
+                  className="nav-link"
+                  onClick={closeExpanded}
+                >
+                  Sprint 3
                 </Link>
               </Nav.Item>
             </Nav>

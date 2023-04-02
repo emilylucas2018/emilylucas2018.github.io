@@ -36,53 +36,6 @@ export const moreInfo =
  ************************************************************** 
   Add or remove skills in the SAME format below, there must be one icon imported above per skill below.
 */
-export const skillData = [
-  {
-    id: 1,
-    skill: <FaHtml5 className="display-4" />,
-    name: "HTML5",
-  },
-  {
-    id: 2,
-    skill: <FaCss3Alt className="display-4" />,
-    name: "CSS3",
-  },
-  {
-    id: 3,
-    skill: <SiJavascript className="display-4" />,
-    name: "JavaScript",
-  },
-  {
-    id: 4,
-    skill: <FaBootstrap className="display-4" />,
-    name: "BootStrap",
-  },
-  {
-    id: 5,
-    skill: <FaReact className="display-4" />,
-    name: "React",
-  },
-  {
-    id: 6,
-    skill: <SiStyledcomponents className="display-4" />,
-    name: "Styled Components",
-  },
-  {
-    id: 7,
-    skill: <SiRedux className="display-4" />,
-    name: "Redux",
-  },
-  {
-    id: 8,
-    skill: <FaGitAlt className="display-4" />,
-    name: "Git",
-  },
-  {
-    id: 9,
-    skill: <FaGithubSquare className="display-4" />,
-    name: "GitHub",
-  },
-];
 
 // Resume link (string - "https://YourResumeUrl") - I am using CloudFront to share my resume (https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html)
 export const resume = null;
@@ -100,3 +53,9 @@ export const projectCardImages = [
   },
 ];
 
+/* Contact Info
+ ************************************************************** 
+ Add your formspree endpoint below.
+ https://formspree.io/
+*/
+export const formspreeUrl = "https://formspree.io/f/YourEndpoint";

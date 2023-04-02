@@ -20,11 +20,7 @@ import HeroDark from "./images/hero-dark.jpg";
 export { HeroLight as Light };
 export { HeroDark as Dark };
 
-/* START HERE
- **************************************************************
-  Add your GitHub username (string - "YourUsername") below.
-*/
-export const githubUsername = "Your GitHub username here";
+export const githubUsername = "emilylucas2018";
 
 // Blog link icon (imported above)
 export const Blog = <FaLink />;
@@ -93,9 +89,8 @@ export const resume = null;
 
 /* Projects
  ************************************************************** 
-  List the repo names (string - "your-repo-name") you want to include (they will be sorted alphabetically). If empty, only the first 3 will be included.
 */
-export const filteredProjects = ["example-1", "example-2", "example-3"];
+export const filteredProjects = ["Ajian Sushi App"];
 
 // Replace the defualt GitHub image for matching repos below (images imported above - lines 13-14)
 export const projectCardImages = [
@@ -105,9 +100,3 @@ export const projectCardImages = [
   },
 ];
 
-/* Contact Info
- ************************************************************** 
-  Add your formspree endpoint below.
-  https://formspree.io/
-*/
-export const formspreeUrl = "https://formspree.io/f/YourEndpoint";
